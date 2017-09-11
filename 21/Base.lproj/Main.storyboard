@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GeezaPro.ttc">
+            <string>GeezaPro</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="a8K-E0-KDL">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="Sgn-EZ-ogW">
+                                <rect key="frame" x="25" y="45" width="120" height="170"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="uZU-qa-wfc">
+                                <rect key="frame" x="25" y="472" width="120" height="170"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="DEK-0L-rUr">
+                                <rect key="frame" x="230" y="45" width="120" height="170"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="vf9-3f-IRP">
+                                <rect key="frame" x="230" y="472" width="120" height="170"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBl-PE-arW">
+                                <rect key="frame" x="148" y="309" width="79" height="49"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="30"/>
+                                <state key="normal" title="DEAL">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dealButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NYE-a0-JxR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USER 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idj-pX-83Q">
+                                <rect key="frame" x="42" y="321" width="73" height="25"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mI-K5-E43">
+                                <rect key="frame" x="156" y="234" width="63" height="25"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USER 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWB-4E-4YX">
+                                <rect key="frame" x="260" y="321" width="73" height="25"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yB-N6-LxD">
+                                <rect key="frame" x="156" y="408" width="63" height="25"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLICKS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nlh-1V-0xQ">
+                                <rect key="frame" x="162" y="354.5" width="51" height="17.5"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Idj-pX-83Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="0lm-eq-ZMV"/>
+                            <constraint firstItem="Sgn-EZ-ogW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="5AF-Wj-Pn3"/>
+                            <constraint firstItem="eBl-PE-arW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6tS-Hu-Zu3"/>
+                            <constraint firstItem="Idj-pX-83Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="716-7p-Fu7"/>
+                            <constraint firstItem="eBl-PE-arW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CPS-ql-K7C"/>
+                            <constraint firstItem="a8K-E0-KDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D4V-x9-0kr"/>
+                            <constraint firstItem="1yB-N6-LxD" firstAttribute="top" secondItem="eBl-PE-arW" secondAttribute="bottom" constant="50" id="JPD-9B-LJW"/>
+                            <constraint firstItem="a8K-E0-KDL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SDw-c1-VcT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vf9-3f-IRP" secondAttribute="trailing" constant="25" id="SY0-PT-Jac"/>
+                            <constraint firstItem="uZU-qa-wfc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Xnc-fd-XNe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vf9-3f-IRP" secondAttribute="bottom" constant="25" id="aCi-mN-cVH"/>
+                            <constraint firstItem="a8K-E0-KDL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ael-WS-NCM"/>
+                            <constraint firstItem="1yB-N6-LxD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b06-1S-peU"/>
+                            <constraint firstItem="a8K-E0-KDL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="beH-C3-407"/>
+                            <constraint firstItem="Nlh-1V-0xQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEs-LV-X9N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xWB-4E-4YX" secondAttribute="trailing" constant="42" id="dRP-i0-PuL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DEK-0L-rUr" secondAttribute="trailing" constant="25" id="dgd-q8-mcY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uZU-qa-wfc" secondAttribute="bottom" constant="25" id="e8Y-63-O2u"/>
+                            <constraint firstItem="1yB-N6-LxD" firstAttribute="top" secondItem="Nlh-1V-0xQ" secondAttribute="bottom" constant="36" id="gFi-Ke-vbi"/>
+                            <constraint firstItem="DEK-0L-rUr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="kkL-IT-nsY"/>
+                            <constraint firstItem="Nlh-1V-0xQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nA2-me-wya"/>
+                            <constraint firstItem="eBl-PE-arW" firstAttribute="top" secondItem="1mI-K5-E43" secondAttribute="bottom" constant="50" id="oNj-2z-bwi"/>
+                            <constraint firstItem="xWB-4E-4YX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qbw-7r-pXZ"/>
+                            <constraint firstItem="Sgn-EZ-ogW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="sXb-Ka-am9"/>
+                            <constraint firstItem="1mI-K5-E43" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sn4-Gz-PxU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="countClicks" destination="Nlh-1V-0xQ" id="Pq6-Zk-FJr"/>
+                        <outlet property="lowerLeft" destination="uZU-qa-wfc" id="1Mk-c2-9Ka"/>
+                        <outlet property="lowerRight" destination="vf9-3f-IRP" id="3Nc-ZK-woJ"/>
+                        <outlet property="pointCpu" destination="xWB-4E-4YX" id="uil-mj-HvI"/>
+                        <outlet property="pointUser" destination="Idj-pX-83Q" id="khU-1z-TfC"/>
+                        <outlet property="totalLower" destination="1yB-N6-LxD" id="ncg-Dk-MIT"/>
+                        <outlet property="totalUpper" destination="1mI-K5-E43" id="Iae-j7-VGf"/>
+                        <outlet property="upperLeft" destination="Sgn-EZ-ogW" id="bP5-Pn-sMa"/>
+                        <outlet property="upperRight" destination="DEK-0L-rUr" id="P3Q-Qv-ITf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="120" height="170"/>
+        <image name="background" width="333" height="311"/>
+    </resources>
+</document>
